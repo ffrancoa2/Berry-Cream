@@ -43,7 +43,7 @@ export default function Footer() {
 
             {/* WhatsApp */}
             <a
-              href="https://wa.me/59381217023?text=Hola%20quiero%20fresas%20con%20crema%20🍓"
+              href="https://wa.me/593981217023?text=Hola%20quiero%20fresas%20con%20crema%20🍓"
               target="_blank"
               rel="noopener noreferrer"
               className="group"

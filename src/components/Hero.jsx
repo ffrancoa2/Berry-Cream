@@ -33,7 +33,7 @@ export default function Hero() {
     >
       {/* 🍓 IMAGEN HERO */}
       <img
-        src="/src/assets/berry.png"
+        src="/berry.png"
         alt="Fresas con crema"
         className="
           absolute

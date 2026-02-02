@@ -39,14 +39,14 @@ export default function Home() {
             title="Berry Classic"
             description="Vaso de fresas seleccionadas con nuestra crema especial secreta. Frescura total a la salida del cole."
             price="1.50"
-            image="src/assets/image.png"
+            image="/image.png"
           />
 
           <ProductCard
             title="Topping Explosivo ✨"
             description="Personaliza tu postre con chocolate, galletas u Oreos. ¡Hazlo único!"
             price="0.50"
-            image="src/assets/toppings.png"
+            image="/toppings.png"
           />
         </div>
       </section>

@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply transition-colors duration-500 ease-in-out;
+  }
+
+  body {
+    @apply bg-cream text-cocoa transition-colors duration-500 ease-in-out;
+  }
+
+  .dark body {
+    @apply bg-night text-cream;
+  }
+}
+
+section {
+  scroll-margin-top: 90px;
+}
+
+/* 🍓 Cursor girly global */
+html, body {
+  cursor: url("/cursor-strawberry.png") 16 16, auto;
+}
+
+/* Para links y botones */
+a,
+button,
+[role="button"] {
+  cursor: url("/cursor-strawberry.png") 16 16, pointer;
+}
+
+@keyframes floatCursor {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-2px); }
+  100% { transform: translateY(0px); }
+}

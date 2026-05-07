@@ -17,13 +17,28 @@ export default function MainLayout({ children }) {
         duration-500
       "
     >
-      {/* ✨ Glow girly (sin imagen) */}
+      {/* ✨ Glow sutil de fondo */}
       <div
         className="
           fixed
           inset-0
-          bg-[radial-gradient(circle_at_top,rgba(255,150,190,0.25),transparent_60%)]
-          dark:bg-[radial-gradient(circle_at_top,rgba(255,105,135,0.10),transparent_60%)]
+          bg-[radial-gradient(circle_at_top_left,rgba(244,114,182,0.15),transparent_50%)]
+          dark:bg-[radial-gradient(circle_at_top_left,rgba(244,114,182,0.08),transparent_50%)]
+          pointer-events-none
+          z-0
+        "
+      />
+
+      {/* Segundo glow */}
+      <div
+        className="
+          fixed
+          bottom-0
+          right-0
+          w-1/2
+          h-1/2
+          bg-[radial-gradient(circle_at_bottom_right,rgba(251,207,232,0.15),transparent_60%)]
+          dark:bg-[radial-gradient(circle_at_bottom_right,rgba(244,114,182,0.05),transparent_60%)]
           pointer-events-none
           z-0
         "
@@ -31,7 +46,7 @@ export default function MainLayout({ children }) {
 
       <Navbar />
 
-      <main className="relative z-10 pt-20">
+      <main className="relative z-10">
         {children}
       </main>
 
